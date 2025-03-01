@@ -1,0 +1,25 @@
+// Archivo: scss/components/_botones.scss
+
+@use "../utilities/variables" as *;
+@use "../utilities/mixin" as mixin;
+@use "sass:color";
+
+.btn-primary {
+    background-color: $primary-color;
+    color: #fff;
+    border: none;
+    @include mixin.transition(background-color, 0.3s);
+
+    &:hover {
+        background-color: color.adjust($primary-color, $lightness: -10%);
+    }
+}
+
+.btn-danger {
+    background-color: red;
+    color: #fff;
+
+    &:hover {
+        background-color: color.adjust(red, $lightness: -10%);
+    }
+}

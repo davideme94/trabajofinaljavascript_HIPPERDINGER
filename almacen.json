@@ -1,0 +1,31 @@
+[
+    {
+      "id": 1,
+      "nombre": "Arroz Parboil Gallo Oro En Bolsa 1 Kg",
+      "precio": 3000,
+      "imagen": "static/imgs/productoalmacen1.jpg",
+      "descripcion": "Arroz Parboil Gallo Oro En Bolsa 1 Kg"
+    },
+    {
+      "id": 2,
+      "nombre": "Fideos Matarazzo Spaghetti X500g",
+      "precio": 3000,
+      "imagen": "static/imgs/productoalmacen2.jpg",
+      "descripcion": "Fideos Matarazzo Spaghetti X500g"
+    },
+    {
+      "id": 3,
+      "nombre": "Aceite De Girasol Natura 900 Ml",
+      "precio": 2000,
+      "imagen": "static/imgs/productoalmacen3.jpg",
+      "descripcion": "Aceite De Girasol Natura 900 Ml"
+    },
+    {
+      "id": 4,
+      "nombre": "Azúcar Molida Ledesma 1 Kg",
+      "precio": 1099,
+      "imagen": "static/imgs/productoalmacen4.jpg",
+      "descripcion": "Azúcar Molida Ledesma 1 Kg"
+    }
+  ]
+  

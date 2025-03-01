@@ -1,0 +1,34 @@
+[
+    {
+        "id": 21,
+        "nombre": "Jugo Listo Cepita Naranja - 1 L",
+        "precio": 1200,
+        "precioOriginal": 1650,
+        "imagen": "static/imgs/OFERTAS1.jpg",
+        "descripcion": "Jugo Listo Cepita Naranja - 1 L"
+    },
+    {
+        "id": 22,
+        "nombre": "Cerveza Budweiser Musica X 473 Cc Sixpack",
+        "precio": 6750,
+        "precioOriginal": 7400,
+        "imagen": "static/imgs/OFERTAS2.jpg",
+        "descripcion": "Cerveza Budweiser Musica X 473 Cc Sixpack"
+    },
+    {
+        "id": 23,
+        "nombre": "Gaseosa Schweppes Tónica 1.5 L",
+        "precio": 2700,
+        "precioOriginal": 3400,
+        "imagen": "static/imgs/OFERTAS3.jpg",
+        "descripcion": "Gaseosa Schweppes Tónica 1.5 L"
+    },
+    {
+        "id": 24,
+        "nombre": "Oblea Leche 4 Fingers Kitkat® 41.5 Gr",
+        "precio": 934,
+        "precioOriginal": 1800,
+        "imagen": "static/imgs/OFERTAS4.jpg",
+        "descripcion": "Oblea Leche 4 Fingers Kitkat® 41.5 Gr"
+    }
+]

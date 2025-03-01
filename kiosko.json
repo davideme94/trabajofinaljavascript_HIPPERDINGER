@@ -1,0 +1,30 @@
+[
+    {
+        "id": 13,
+        "nombre": "Chocolate Cofler Block Con Maní 170 Gr",
+        "precio": 5100,
+        "imagen": "static/imgs/productokiosko1.jpg",
+        "descripcion": "Chocolate Cofler Block Con Maní 170 Gr"
+    },
+    {
+        "id": 14,
+        "nombre": "Papas Fritas Lays Clásicas X 134 Gr",
+        "precio": 2900,
+        "imagen": "static/imgs/productokiosko2.jpg",
+        "descripcion": "Papas Fritas Lays Clásicas X 134 Gr"
+    },
+    {
+        "id": 15,
+        "nombre": "Caramelos Confitados Sugus X50gr",
+        "precio": 650,
+        "imagen": "static/imgs/productokiosko3.jpg",
+        "descripcion": "Caramelos Confitados Sugus X50gr"
+    },
+    {
+        "id": 16,
+        "nombre": "Galletitas Oreo Mini Rellenas Sabor Original 50 Gr",
+        "precio": 800,
+        "imagen": "static/imgs/productokiosko4.jpg",
+        "descripcion": "Galletitas Oreo Mini Rellenas Sabor Original 50 Gr."
+    }
+]

@@ -1,0 +1,27 @@
+// Archivo: scss/media-queries/_breakpoints.scss
+
+// Breakpoints para responsive design
+$breakpoint-mobile: 600px;
+$breakpoint-tablet: 1024px;
+$breakpoint-desktop: 1200px;
+
+/* Estilos para Mobile (hasta 600px) */
+@mixin mobile {
+    @media screen and (max-width: $breakpoint-mobile) {
+        @content;
+    }
+}
+
+/* Estilos para Tablet (601px a 1024px) */
+@mixin tablet {
+    @media screen and (min-width: $breakpoint-mobile + 1) and (max-width: $breakpoint-tablet) {
+        @content;
+    }
+}
+
+/* Estilos para Desktop (a partir de 1025px) */
+@mixin desktop {
+    @media screen and (min-width: $breakpoint-tablet + 1) {
+        @content;
+    }
+}

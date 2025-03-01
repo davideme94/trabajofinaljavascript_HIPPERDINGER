@@ -1,0 +1,30 @@
+[
+{
+    "id": 5,
+    "nombre": "Agua Sin Gas Villavicencio 1,5 L",
+    "precio": 1700,
+    "imagen": "static/imgs/producto1bebida.jpg",
+    "descripcion": "Agua Sin Gas Villavicencio 1,5L"
+  },
+  {
+    "id": 6,
+    "nombre": "Gaseosa Coca-cola Original 2.25 L",
+    "precio": 2600,
+    "imagen": "static/imgs/producto2bebida.jpg",
+    "descripcion": "Gaseosa Coca-cola Sabor Original 2.25 L"
+  },
+  {
+    "id": 7,
+    "nombre": "Jugo de Naranja Cepita 995ml",
+    "precio": 1200,
+    "imagen": "static/imgs/producto3bebida.jpg",
+    "descripcion": "Jugo de Naranja Cepita Clásico 995ml"
+  },
+  {
+    "id": 8,
+    "nombre": "Cerveza Quilmes Cristal 1L",
+    "precio": 1200,
+    "imagen": "static/imgs/producto4bebida.jpg",
+    "descripcion": "Cerveza Quilmes Cristal 1 litro"
+  }
+]

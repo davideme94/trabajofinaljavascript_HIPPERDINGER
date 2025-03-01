@@ -1,0 +1,30 @@
+[
+    {
+        "id": 17,
+        "nombre": "Leche La Serenísima 1L",
+        "precio": 1200,
+        "imagen": "static/imgs/productolacteo1.png",
+        "descripcion": "Leche Entera La Serenísima 3sachet 1lt."
+    },
+    {
+        "id": 18,
+        "nombre": "Dulce De Leche La Serenisima 400g",
+        "precio": 2200,
+        "imagen": "static/imgs/productolatecteo2.png",
+        "descripcion": "Dulce De Leche La Serenisima Clásico 400g"
+    },
+    {
+        "id": 19,
+        "nombre": "Manteca Primer Premio 200 Gr",
+        "precio": 2000,
+        "imagen": "static/imgs/productolacteo3.jpg",
+        "descripcion": "Manteca Primer Premio 200 Gr"
+    },
+    {
+        "id": 20,
+        "nombre": "Yogur La Serenísima Clásico Frutilla 120g",
+        "precio": 700,
+        "imagen": "static/imgs/productolacteo4.jpg",
+        "descripcion": "Yogur Batido La Serenísima Clásico Frutilla 120g"
+    }
+]

@@ -1,0 +1,150 @@
+// Archivo: scss/layout/_aboutus.scss
+@use "../utilities/variables" as *;
+@use "../utilities/mixin" as mixin;
+@use "../utilities/extend" as *;
+@use "../mediaqueries/breakpoints" as mq;
+
+/* Sección Sobre Nosotros */
+.about-section {
+    padding: 50px;
+    background-color: #f8f9fa;
+    color: $text-color;
+
+    // Estilo para mobile
+    @include mq.mobile {
+        padding: 20px;
+        h1 {
+            font-size: 1.8rem;
+        }
+        p {
+            font-size: 1rem;
+        }
+    }
+
+    // Estilo para tablet
+    @include mq.tablet {
+        padding: 30px;
+        h1 {
+            font-size: 2.2rem;
+        }
+        p {
+            font-size: 1.1rem;
+        }
+    }
+
+    // Estilo para desktop
+    @include mq.desktop {
+        padding: 50px;
+        h1 {
+            font-size: 2.5rem;
+        }
+        p {
+            font-size: 1.2rem;
+        }
+    }
+}
+
+/* Sección Redes Sociales */
+.social-section {
+    padding: 40px 0;
+    background-color: $bg-dark;
+    color: $text-color-dark;
+
+    h2 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+
+        // Estilo para mobile
+        @include mq.mobile {
+            font-size: 1.5rem;
+        }
+
+        // Estilo para tablet
+        @include mq.tablet {
+            font-size: 1.8rem;
+        }
+
+        // Estilo para desktop
+        @include mq.desktop {
+            font-size: 2rem;
+        }
+    }
+}
+
+/* Contenedor de Redes Sociales */
+.social-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+
+    // Estilo para mobile
+    @include mq.mobile {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    // Estilo para tablet
+    @include mq.tablet {
+        flex-direction: row;
+        gap: 25px;
+    }
+
+    // Estilo para desktop
+    @include mq.desktop {
+        flex-direction: row;
+        gap: 30px;
+    }
+}
+
+/* Enlaces de Redes Sociales */
+.social-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: $text-color-dark;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+
+    &:hover {
+        color: $bg-light;
+    }
+
+    img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        animation: jump 1s ease-in-out infinite;
+
+        // Estilo para mobile
+        @include mq.mobile {
+            width: 80px;
+            height: 80px;
+        }
+
+        // Estilo para tablet
+        @include mq.tablet {
+            width: 90px;
+            height: 90px;
+        }
+
+        // Estilo para desktop
+        @include mq.desktop {
+            width: 100px;
+            height: 100px;
+        }
+    }
+}
+
+/* Animación de salto */
+@keyframes jump {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}

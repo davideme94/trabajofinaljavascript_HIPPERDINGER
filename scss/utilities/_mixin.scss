@@ -1,0 +1,35 @@
+// Archivo: scss/utilities/_mixin.scss
+@use "sass:color";
+
+@mixin box-shadow($shadow) {
+    box-shadow: $shadow;
+}
+
+@mixin transition($property, $duration) {
+    transition: $property $duration ease-in-out;
+}
+
+@mixin dark-mode-bg($color) {
+    background-color: $color;
+    color: $dark-mode-text;
+}
+
+@mixin hover-darken($color) {
+    background-color: color.adjust($color, $lightness: -10%);
+}
+
+
+// Mixin para botones
+@mixin button-styles($bg-color, $text-color) {
+    background-color: $bg-color;
+    color: $text-color;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    @include transition(background-color, 0.3s);
+
+    &:hover {
+        @include hover-darken($bg-color);
+    }
+}

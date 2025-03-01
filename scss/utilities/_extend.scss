@@ -1,0 +1,15 @@
+// Archivo: scss/layout/_index.scss
+@use "../utilities/variables" as *;
+@use "../utilities/mixin" as mixin;
+
+
+// Extensiones
+%card-style {
+    width: 100%;
+    max-width: 250px;
+    border: 1px solid;
+    border-radius: 8px;
+    overflow: hidden;
+    @include mixin.box-shadow(0 2px 5px $color-hover);
+    @include mixin.transition(transform, 0.2s);
+}

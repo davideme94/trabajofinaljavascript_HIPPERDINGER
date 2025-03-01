@@ -1,0 +1,30 @@
+[
+    {
+        "id": 9,
+        "nombre": "BANANA (kg)",
+        "precio": 1900,
+        "imagen": "static/imgs/productoverduyfruta1.jpg",
+        "descripcion": "Banana Ecuador (kg)"
+    },
+    {
+        "id": 10,
+        "nombre": "LECHUGA X Kg",
+        "precio": 1800,
+        "imagen": "static/imgs/productoverduyfruta2.jpg",
+        "descripcion": "Lechuga Criolla X Kg"
+    },
+    {
+        "id": 11,
+        "nombre": "TOMATE PERITA POR KG",
+        "precio": 3800,
+        "imagen": "static/imgs/productoverduyfruta3.jpg",
+        "descripcion": "Tomate Perita Por Kg"
+    },
+    {
+        "id": 12,
+        "nombre": "MANZANA POR KG",
+        "precio": 7000,
+        "imagen": "static/imgs/productoverduyfruta4.jpg",
+        "descripcion": "Manzana Roja"
+    }
+]
